@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Price Container</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="pricing-container">
+      <div class="h2-wrapper">
+        <h2>YAY! its BOGO</h2>
+      </div>
+
+      <div class="bundle-container">
+        <!-- 1 Unit -->
+        <div class="bundle-option" data-price="22">
+          <div class="radio-label">
+            <input type="radio" name="bundle" id="one-pair" />
+            <label for="one-pair" class="bundle-details">
+              <div class="Span-3">
+                <span class="bundle-title">1</span>
+                <span class="unit">Unit</span>
+                <span class="discount">50% OFF</span>
+              </div>
+              <div class="price-container">
+                <span class="price">$22.00 USD</span>
+                <span class="old-price">$30.00 USD</span>
+              </div>
+            </label>
+          </div>
+          <div class="options">
+            <div class="options-span">
+              <span>Size</span>
+              <span>Color</span>
+            </div>
+            <label
+              >#1
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+
+            <label
+              >#2
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- 2 Units -->
+        <div class="bundle-option expanded" data-price="20">
+          <span class="most-popular">Most Popular</span>
+          <div class="radio-label">
+            <input type="radio" name="bundle" id="two-pair" checked />
+            <label for="two-pair" class="bundle-details">
+              <div class="Span-3">
+                <span class="bundle-title">2</span>
+                <span class="unit">Unit</span>
+                <span class="discount">40% OFF</span>
+              </div>
+              <div class="price-container">
+                <span class="price">$20.00 USD</span>
+                <span class="old-price">$28.00 USD</span>
+              </div>
+            </label>
+          </div>
+          <div class="options">
+            <div class="options-span">
+              <span>Size</span>
+              <span>Color</span>
+            </div>
+            <label
+              >#1
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+
+            <label
+              >#2
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+          </div>
+        </div>
+
+        <!-- 3 Units -->
+        <div class="bundle-option" data-price="24">
+          <div class="radio-label">
+            <input type="radio" name="bundle" id="three-pair" />
+            <label for="three-pair" class="bundle-details">
+              <div class="Span-3">
+                <span class="bundle-title">3</span>
+                <span class="unit">Unit</span>
+                <span class="discount">60% OFF</span>
+              </div>
+              <div class="price-container">
+                <span class="price">$18.00 USD</span>
+                <span class="old-price">$24.00 USD</span>
+              </div>
+            </label>
+          </div>
+          <div class="options">
+            <div class="options-span">
+              <span>Size</span>
+              <span>Color</span>
+            </div>
+            <label
+              >#1
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+
+            <label
+              >#2
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Red</option>
+                <option>Blue</option>
+                <option>Black</option>
+              </select>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="total-span">
+        <p>Free Delivery</p>
+        <span class="total-price">Total: $345.00 USD</span>
+      </div>
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
