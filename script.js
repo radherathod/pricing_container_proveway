@@ -11,9 +11,8 @@ document.addEventListener("DOMContentLoaded", () => {
     selectedBundle.classList.add("expanded");
     selectedBundle.querySelector(".options").style.display = "block";
 
-    // Updating total price
     const price = selectedBundle.getAttribute("data-price");
-    totalPriceElement.textContent = `Total: $${price}.00 USD`;
+    totalPriceElement.textContent = `Total: $${price}.00`;
   }
 
   bundles.forEach((bundle) => {
