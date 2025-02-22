@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     selectedBundle.querySelector(".options").style.display = "block";
 
     const price = selectedBundle.getAttribute("data-price");
-    totalPriceElement.textContent = `Total: $${price}.00`;
+    totalPriceElement.textContent = `Total: $${price}.00 USD`;
   }
 
   bundles.forEach((bundle) => {
